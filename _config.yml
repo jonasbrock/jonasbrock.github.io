@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "M.Sc. Jonas Brock"
+title                    : "Jonas Brock"
 title_separator          : "-"
-name                     : "&name M.Sc. Jonas Brock"
+name                     : "&name Jonas Brock"
 description              : "&description Research Scientist at Helmholtz Center"
 url                      : https://jonasbrock.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "M.Sc. Jonas Brock"
+  name             : "Jonas Brock, M.Sc."
   avatar           : "pic.jpg"
   bio              : "Research Scientist at Helmholtz Center"
   location         : "Jena"
@@ -92,7 +92,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "jonasbrock"
   google_plus      :
   keybase          :
   instagram        :
