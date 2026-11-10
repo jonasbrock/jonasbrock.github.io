@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Jonas Brock"
 title_separator          : "-"
-name                     : "&name Jonas Brock"
-description              : "&description Research Scientist at Helmholtz Center"
+name                     : "Jonas Brock"
+description              : "Data scientist and epidemiologist in animal health, public health and health-system research"
 url                      : https://jonasbrock.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jonasbrock.github.io"
@@ -78,12 +78,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jonas Brock, M.Sc."
+  name             : "Dr. Dr. Jonas Brock"
   avatar           : "pic.jpg"
-  bio              : "Research Scientist at Helmholtz Center"
-  location         : "Jena"
+  bio              : "Data scientist & epidemiologist · Animal Health Ireland · Jena University Hospital"
+  location         : "Jena & Ireland"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    :
   email            :
   uri              :
   bitbucket        :
@@ -98,13 +98,13 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :

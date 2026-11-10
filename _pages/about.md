@@ -8,43 +8,47 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a data scientist and epidemiologist working at the intersection of animal health, public health and health-system research. With a background in geoinformatics, computer science and medicine, I build models, analyses and tools that turn large and messy datasets into evidence for decisions — in national disease control programmes as well as in emergency and intensive care.
 
-A data-driven personal website
+Current work
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+**Animal Health Ireland** — Data science and epidemiological modelling for Ireland's national cattle health programmes, above all BVD and IBR. This includes analyses of herd and movement data, surveillance and cost–benefit modelling, interactive dashboards, and AI-based tools for vets, advisors and farmers, as well as support for the BVD Technical Working Group.
 
-Getting started
+**Jena University Hospital** — Research associate in the Public Health section of the Department of Anaesthesiology and Intensive Care Medicine. My research focuses on health-system resilience: how pandemics, heat waves and other external stressors affect emergency medical services and hospital care. Further topics are patient safety (critical incident reporting), early-warning scores and inter-hospital transfers of critically ill patients. I also supervise master's and doctoral students.
+
+Education
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* **Dr. rer. medic.** (2026), Faculty of Medicine, Friedrich Schiller University Jena  
+  *Health System Resilience: Emergency Medical Services before, during and after the COVID-19 pandemic*
+* **Dr. rer. nat.** (2021, summa cum laude), Faculty of Mathematics and Computer Science, Friedrich Schiller University Jena, in collaboration with the Helmholtz Centre for Environmental Research (UFZ)  
+  *[Decision support using advanced modelling concepts in Epidemiology: enhancing future bovine herpesvirus type 1 eradication in Ireland](https://doi.org/10.22032/dbt.50175)*
+* **M.Sc. Geoinformatics**, Friedrich Schiller University Jena
+* **B.Sc. Geoinformatics**, Freie Universität Berlin
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Previous positions
+======
 
-**Markdown generator**
+* 2021–2022: Programme Manager, Animal Health Ireland — national coordination of the BVD and IBR programmes
+* 2018–2020: Doctoral researcher, Helmholtz Centre for Environmental Research (UFZ), in collaboration with Animal Health Ireland
+* Research stays at University College Dublin (2018–2019) and CVERA, Ireland (2022)
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+Awards
+======
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* 2023: PhD Award, Friedrich Schiller University Jena
+* 2022: Konrad Bögel Award in Veterinary Epidemiology and Public Health (University of Veterinary Medicine Hannover)
+* 2019: Oral Presentation Award, German Veterinary Society (DVG)
+* 2019: Master's Thesis Award, Faculty of Geosciences and Chemistry, Friedrich Schiller University Jena
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Selected publications
+======
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* Rogoll, L., Schulz, K., Schulz, J., Brock, J., Thulke, H.-H. (2025). [Beyond crisis response: A roundtable on long-term strategies for managing African swine fever](https://doi.org/10.3390/v17050604). *Viruses* 17(5), 604.
+* Brock, J., Guelbenzu-Gonzalo, M., Lange, M., Tratalos, J.A., Barrett, D., Lane, L., More, S.J., Graham, D.A., Thulke, H.-H. (2024). Evaluating the effectiveness and costs of strategies post-eradication to monitor for freedom from BVDV infection in Ireland. *Agricultural Systems* 221, 104127.
+* Lang, S., Brock, J., Russwurm, S., Groesdonk, H., Laubinger, R., Bauer, M., Dickmann, P. (2023). Lessons from the pandemic. *Deutsches Ärzteblatt* 120(46).
+* Brock, J., Lange, M., Tratalos, J.A., Meunier, N., Guelbenzu-Gonzalo, M., More, S.J., Thulke, H.-H., Graham, D.A. (2022). The Irish cattle population structured by enterprise type: overview, trade & trends. *Irish Veterinary Journal* 75, 6.
+* Brock, J., Lange, M., Tratalos, J.A., More, S.J., Graham, D.A., Guelbenzu-Gonzalo, M., Thulke, H.-H. (2021). [Combining expert knowledge and machine-learning to classify herd types in livestock systems](https://doi.org/10.1038/s41598-021-82373-3). *Scientific Reports* 11, 2989.
+* Brock, J., Lange, M., Tratalos, J.A., More, S.J., Guelbenzu-Gonzalo, M., Graham, D.A., Thulke, H.-H. (2021). A large-scale epidemiological model of BoHV-1 spread in the Irish cattle population. *Preventive Veterinary Medicine* 192, 105375.
+* Brock, J., Lange, M., Guelbenzu-Gonzalo, M., Meunier, N., Vaz, A.M., Tratalos, J.A., Dittrich, P., Gunn, M., More, S.J., Graham, D., Thulke, H.-H. (2020). Epidemiology of age-dependent prevalence of BoHV-1 in dairy herds. *Veterinary Research* 51, 124.
